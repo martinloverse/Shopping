@@ -12,4 +12,8 @@ public class Goods {
         return this.price;
     }
 
+    public int getTaxesPrice() {
+        return this.price + 100;
+    }
+
 }
