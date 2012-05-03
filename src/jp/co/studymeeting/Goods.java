@@ -2,8 +2,14 @@ package jp.co.studymeeting;
 
 public class Goods {
 
+    private int price;
+
+    public Goods(int price) {
+        this.price = price;
+    }
+
     public int getPrice() {
-        return 2000;
+        return this.price;
     }
 
 }
