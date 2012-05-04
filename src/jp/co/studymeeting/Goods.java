@@ -13,7 +13,7 @@ public class Goods {
     }
 
     public int getTaxesPrice() {
-        return this.price + 100;
+        return (int)(this.price * 1.05);
     }
 
 }
